@@ -1,0 +1,11 @@
+{% extends 'layout.twig' %}
+
+{% block content %}
+  <h1>Добавление страницы</h1>
+  {{ answer }}
+  <form method="POST">
+    <input type="text" name="title" placeholder="Заголовок" />
+    <input type="text" name="content" placeholder="Текст" />
+    <input type="submit" value = "Добавить">
+  </form>
+{% endblock %}

@@ -1,0 +1,6 @@
+{
+    "require": {
+        "twig/twig":"~1.15.0",
+        "arzzzen/framework": "dev-master"
+    }
+}

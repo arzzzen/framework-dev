@@ -1,0 +1,7 @@
+{% extends 'layout.twig' %}
+
+{% block content %}
+  {% for page in pages %}
+    <p><a href="/page/{{page.id}}">{{page.title}}</a> | {{page.content}}</p>
+  {% endfor %}
+{% endblock %}
